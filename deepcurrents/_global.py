@@ -1,0 +1,5 @@
+import torch
+
+device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+bdry_d = 1
+reflect_type=1

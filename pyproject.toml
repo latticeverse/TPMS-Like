@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tpmslike"
+version = "0.1.0"
+description = "Reproducible generation of TPMS-like shell lattices"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "scipy",
+  "scikit-image",
+  "pyvista",
+  "vtk",
+  "torch",
+  "tqdm",
+  "tensorboard",
+]
+
+[tool.setuptools]
+packages = ["tpmslike", "hermite", "deepcurrents", "postprocessing"]

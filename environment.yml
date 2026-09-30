@@ -1,0 +1,19 @@
+name: tpmslike
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.1
+  - torchvision
+  - numpy
+  - scipy
+  - scikit-image
+  - pyvista
+  - vtk
+  - tensorboard
+  - tqdm
+  - pip
+  - pip:
+      - PyMCubes
